@@ -9,7 +9,7 @@
       
       <link rel="author" href="https://plus.google.com/+CoriHaws"/>
       
-    <title>Cori Haws</title>
+    <title></title>
 
     <!-- Bootstrap -->
     <link href="assets/stylesheets/style.css" rel="stylesheet">
@@ -27,36 +27,24 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-    
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
-        <div id="wrap">
         {% include slider.html %}
         {% include menu.html %}
-            <section>
         {% include intro.html %}
-            </section>
-            <div class="parallax-window" data-parallax="scroll" data-image-src="../assets/img/simulator-compressor.jpg" style="height: 500px;">
-                <div class="container-fluid">
-                    <div class="row-fluid">
-                        <div class="centering text-center">
-                            <img src="../assets/img/Cori-min.jpg" alt="Image of Cori" class="img-circle img-responsive center-block">
-                        </div>
-                    </div>
-                </div>
-            
+        <section class="bg-1">
+            <div class="col-sm-4 text-center"></div>
+            <div class="col-sm-4 text-center">
+                <img src="../assets/img/Cori-min.jpg" alt="Image of Cori" class="img-circle img-responsive center-block">
             </div>
-        <section>
-        {% include info.html %}
-            </section>
-        <div class="parallax-window" data-parallax="scroll" data-image-src="../assets/img/the_steins;gate-min.jpg" style="height: 500px;">
-            </div>
-            <section>
-        {% include contact.html %}
+            <div class="col-sm-4 text-center"></div>
         </section>
-            </div>
+        {% include info.html %}
+        <section class="bg-2">
+            <div class="col-sm-6 col-sm-offset-3 text-center"></div>
+        </section>
+        {% include contact.html %}
         {% include footer.html %}
         {% include scripts.html %}
-        
   </body>
     
     

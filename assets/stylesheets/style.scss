@@ -11,12 +11,29 @@ h1{
     font-size: 50px;
 }
 section {
-  min-height: 250px;
+  color: #ffffff;
+  min-height: 400px;
   height: auto !important;
   height: 100%;
-  padding-top:50px;
-    padding-bottom:50px;
+  padding-top:100px;
+    padding-bottom:100px;
     overflow:hidden
+}
+
+.bg-1{
+    background-image: url("../img/simulator-compressor.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-2{
+    background-image: url("../img/the_steins;gate-min.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .affix{
@@ -395,38 +412,4 @@ footer{
         display: none;
     }
 
-}
-
-#wrap {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-    overflow:hidden;
-}
-
-.parallax-window {
-    min-height: 400px;
-    background: transparent;
-}
-
-html, body{height:100%; margin:0;padding:0}
- 
-.container-fluid{
-  height:100%;
-  display:table;
-  width: 100%;
-  padding: 0;
-}
- 
-.row-fluid {height: 100%; display:table-cell; vertical-align: middle;}
-
-.centering {
-  float:none;
-  margin:0 auto;
-}
-
-.nav-wrapper
-{
-    min-height:50px;
-    margin-bottom: 22px;
 }
